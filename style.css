@@ -717,3 +717,19 @@ a.solar-btn-ghost:visited {
     font-size: 0.82rem !important;
   }
 }
+
+/* conversion-revision-2026-11-22: 4-card grids, price-card buttons */
+.solar-strength-deck, .solar-media-grid { grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); }
+.solar-capsule-card .solar-icon-ring { margin-bottom: 14px; }
+.solar-price-pod .solar-btn { margin-top: 20px; width: 100%; justify-content: center; min-height: 46px; }
+.solar-price-pod .solar-perk-list { flex: 1; }
+
+/* market-price cards (2026-11-22) */
+.mk-chip { align-self: flex-start; font-size: 0.78rem; color: var(--solar-amber); border: 1px dashed var(--solar-border-glow); padding: 3px 12px; border-radius: 999px; margin-bottom: 14px; }
+.mk-price { font-size: 2.1rem; font-weight: 900; color: #fff; margin: 8px 0 14px; line-height: 1.1; }
+.mk-price small { font-size: 0.8rem; font-weight: 500; color: var(--solar-dim); }
+.mk-source { font-size: 0.78rem; margin-top: 12px; line-height: 1.6; }
+.solar-price-pod .solar-pod-title { font-size: 1.15rem; }
+
+.mk-orig { display: block; font-size: 0.76rem; font-weight: 400; color: var(--solar-dim); margin-top: 4px; line-height: 1.5; }
+.mk-price small:first-child { font-size: 1rem; }
